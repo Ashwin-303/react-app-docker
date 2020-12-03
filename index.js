@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   console.log('Hello world received a request. updated');
 
   const target = process.env.TARGET || 'World';
-  res.send(`Hello ${target}!`);
+  res.send(`Hello ${target} World!`);
 });
 
 app.get('/user', (req, res) => {
